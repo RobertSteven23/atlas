@@ -511,6 +511,42 @@
         "name": "NewObject-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "abajo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abajo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arriba.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arriba.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "derecha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "derecha.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "izquierda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "izquierda.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -543,7 +579,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.448
+        "zoomFactor": 0.664
       },
       "objectsGroups": [],
       "variables": [],
@@ -630,31 +666,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Botonabajo",
-          "persistentUuid": "e391e594-198c-4df0-addb-8e05f2f1432d",
-          "width": 0,
-          "x": 2161,
-          "y": -206,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 126,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "Botonabajo",
           "persistentUuid": "f57aeac4-0289-4341-b343-6369dc856c78",
           "width": 129,
-          "x": -3,
-          "y": 558,
+          "x": 108,
+          "y": 586,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -664,13 +684,13 @@
           "angle": 0,
           "customSize": true,
           "height": 131,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "arriba",
           "persistentUuid": "783eb10a-c4e5-47b5-9a7c-d4fbb81661b6",
-          "width": 106,
-          "x": 2,
-          "y": 354,
+          "width": 130,
+          "x": 112,
+          "y": 385,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -680,13 +700,13 @@
           "angle": 0,
           "customSize": true,
           "height": 126,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "botonderecha",
           "persistentUuid": "8951cb18-265d-4610-baab-f28d459aab2e",
           "width": 124,
-          "x": 123,
-          "y": 462,
+          "x": 209,
+          "y": 490,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -696,13 +716,13 @@
           "angle": 0,
           "customSize": true,
           "height": 118,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "botonizquierdo",
           "persistentUuid": "c754fabd-825e-4124-9a65-9019e6613ed4",
           "width": 120,
-          "x": -129,
-          "y": 453,
+          "x": 21,
+          "y": 490,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -718,11 +738,11 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "allowDiagonals": true,
               "deceleration": 600,
-              "name": "TopDownMovement",
               "rotateObject": false,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
@@ -1272,7 +1292,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Botonabajo",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1281,7 +1301,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Botonabajo-1.png",
+                      "image": "abajo.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1311,7 +1331,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1320,7 +1340,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1.png",
+                      "image": "arriba.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1350,7 +1370,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1359,7 +1379,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-0.png",
+                      "image": "derecha.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1389,7 +1409,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1398,7 +1418,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-1.png",
+                      "image": "izquierda.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1725,11 +1745,98 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseAnimation"
+              },
+              "parameters": [
+                "caminar"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
                 "Botonabajo",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::SimulateDownKey"
+              },
+              "parameters": [
+                "caminar",
+                "TopDownMovement"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "caminar",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "caminar"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "arriba",
                 "",
                 "",
                 ""
@@ -1737,31 +1844,153 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::SimulateUpKey"
+              },
+              "parameters": [
+                "caminar",
+                "TopDownMovement"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "caminar",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "caminar"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "botonderecha",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "caminar",
+                "TopDownMovement"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "caminar",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "caminar"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "botonizquierdo",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "caminar",
+                "TopDownMovement"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "caminar",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "caminar"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
@@ -1794,6 +2023,17 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1701470848,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "HUD",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],

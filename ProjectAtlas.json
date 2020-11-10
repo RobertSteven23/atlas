@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Dell\\Documents\\GDevelop projects\\My project\\game.json",
+    "projectFile": "C:\\Users\\Dell\\Documents\\GDevelop projects\\My project\\ProjectAtlas.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -511,42 +511,6 @@
         "name": "NewObject-1.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "abajo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "abajo.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "arriba.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "arriba.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "derecha.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "derecha.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "izquierda.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "izquierda.png",
-        "smoothed": true,
-        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -579,7 +543,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.664
+        "zoomFactor": 0.448
       },
       "objectsGroups": [],
       "variables": [],
@@ -666,6 +630,22 @@
         },
         {
           "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Botonabajo",
+          "persistentUuid": "e391e594-198c-4df0-addb-8e05f2f1432d",
+          "width": 0,
+          "x": 2161,
+          "y": -206,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": true,
           "height": 126,
           "layer": "HUD",
@@ -673,8 +653,8 @@
           "name": "Botonabajo",
           "persistentUuid": "f57aeac4-0289-4341-b343-6369dc856c78",
           "width": 129,
-          "x": 108,
-          "y": 586,
+          "x": 111,
+          "y": 551,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -688,9 +668,9 @@
           "locked": false,
           "name": "arriba",
           "persistentUuid": "783eb10a-c4e5-47b5-9a7c-d4fbb81661b6",
-          "width": 130,
-          "x": 112,
-          "y": 385,
+          "width": 106,
+          "x": 123,
+          "y": 336,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -705,8 +685,8 @@
           "name": "botonderecha",
           "persistentUuid": "8951cb18-265d-4610-baab-f28d459aab2e",
           "width": 124,
-          "x": 209,
-          "y": 490,
+          "x": 232,
+          "y": 444,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -721,8 +701,8 @@
           "name": "botonizquierdo",
           "persistentUuid": "c754fabd-825e-4124-9a65-9019e6613ed4",
           "width": 120,
-          "x": 21,
-          "y": 490,
+          "x": 5,
+          "y": 440,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1292,7 +1272,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Botonabajo",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1301,7 +1281,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "abajo.png",
+                      "image": "Botonabajo-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1331,7 +1311,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "NewObject",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1340,7 +1320,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "arriba.png",
+                      "image": "NewObject-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1370,7 +1350,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "NewObject",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1379,7 +1359,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "derecha.png",
+                      "image": "NewObject-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1409,7 +1389,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "NewObject",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1418,7 +1398,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "izquierda.png",
+                      "image": "NewObject-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1745,44 +1725,13 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PauseAnimation"
-              },
-              "parameters": [
-                "caminar"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
                 "Botonabajo",
                 "",
-                "yes",
+                "",
                 ""
               ],
               "subInstructions": []
@@ -2026,8 +1975,8 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453632,
-          "ambientLightColorG": 1701470848,
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 1701470831,
           "ambientLightColorR": 0,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
